@@ -18,7 +18,7 @@ $table = $installer->getConnection()
 'nullable' => false, 
 'default' => 0
 ), 'HelloWorld Age')
-->addColumn('create_at', Varien_Db_Ddl_Table::TYPE_TIMESTAMP, array(
+->addColumn('created_at', Varien_Db_Ddl_Table::TYPE_TIMESTAMP, array(
 'nullable' => false
 ), 'HelloWorld created_at')
 ->setComment('HelloWorld Table');
