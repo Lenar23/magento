@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <lenar vendor_module="magestore_lenar" translate="title">
+        <title>Lenar</title>
+        <sort_order>71</sort_order>
+            <action>adminhtml/index/index/</action>
+        </lenar>
+    </menu>
+</config>
