@@ -16,4 +16,36 @@
             </helloworld>
         </routers>
     </frontend>
+    <global>
+        <models>
+            <helloworld>
+                <class>Wdevelop_HelloWorld_Model</class>
+                <entities>
+                    <helloworld>
+                        <table>wdevelop_helloworld</table>
+                    </helloworld>
+                </entities>
+            </helloworld>
+        </models>
+        <resources>
+            <helloworld_setup>
+                <setup>
+                    <module>Wdevelop_HelloWorld</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </helloworld_setup>
+            <helloworld_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </helloworld_write>
+            <helloworld_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </helloworld_read>
+        </resources>
+    </global>
 </config>
