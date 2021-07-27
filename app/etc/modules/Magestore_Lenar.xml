@@ -2,10 +2,10 @@
 <config>
 
 <modules>
-<Wdevelop_HelloWorld>
+<Magestore_Lenar>
     <active>true</active>
     <codePool>local</codePool>
-</Wdevelop_HelloWorld>
+</Magestore_Lenar>
 
 </modules>
 
